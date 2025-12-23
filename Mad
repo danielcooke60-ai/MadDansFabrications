@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mad Dan’s Fabrications | Mobile Welding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Mad Dan’s Fabrications Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.facebook.com/MadDansFabrications" target="_blank" rel="noopener">Facebook</a>
+  </nav>
+</header>
+
+<section>
+  <h1>Mobile Welding &amp; Fabrication</h1>
+  <p>
+    Professional on-site welding, repairs, and custom fabrication.
+    Reliable, tough work done right the first time.
+  </p>
+  <a class="button" href="contact.html">Get a Quote</a>
+</section>
+
+<footer>
+  © 2025 Mad Dan’s Fabrications
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About | Mad Dan’s Fabrications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Mad Dan’s Fabrications Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.facebook.com/MadDansFabrications" target="_blank" rel="noopener">Facebook</a>
+  </nav>
+</header>
+
+<section>
+  <h1>About Us</h1>
+  <p>
+    Mad Dan’s Fabrications provides professional mobile welding and fabrication
+    services. We come to you — saving time, reducing downtime, and delivering
+    strong, reliable workmanship on every job.
+  </p>
+</section>
+
+<footer>
+  © 2025 Mad Dan’s Fabrications
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Services | Mad Dan’s Fabrications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Mad Dan’s Fabrications Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.facebook.com/MadDansFabrications" target="_blank" rel="noopener">Facebook</a>
+  </nav>
+</header>
+
+<section>
+  <h1>Our Services</h1>
+  <ul>
+    <li>Mobile Welding</li>
+    <li>MIG / TIG / Stick Welding</li>
+    <li>Steel, Stainless Steel &amp; Aluminium</li>
+    <li>On-Site Repairs</li>
+    <li>Custom Fabrication</li>
+  </ul>
+</section>
+
+<footer>
+  © 2025 Mad Dan’s Fabrications
+</footer>
+
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background:
+    linear-gradient(45deg, #1a1a1a 25%, transparent 25%),
+    linear-gradient(-45deg, #1a1a1a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #1a1a1a 75%),
+    linear-gradient(-45deg, transparent 75%, #1a1a1a 75%);
+  background-size: 18px 18px;
+  background-color: #0b0b0b;
+}
+
+header {
+  background: #000;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 3px solid #2ecc71;
+}
+
+header img {
+  max-width: 260px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #2ecc71;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+h1, h2 {
+  color: #2ecc71;
+}
+
+.button {
+  background: #2ecc71;
+  color: #000;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #333;
+  color: #ddd;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
