@@ -1,3 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My GitHub Pages site</title>
+</head>
+<body>
+  <h1>Hello — GitHub Pages is working</h1>
+  <p>This is a minimal index.html to get the site serving.</p>
+</body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
